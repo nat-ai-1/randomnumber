@@ -1,0 +1,20 @@
+<head>
+    <title>สุ่มตัวเลข</title>
+    <link rel="stylesheet" href="frontend.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ใส่ช่วงตัวเลขที่ต้องการ</h1>
+        <input type="number" id="min" placeholder="เลขต่ำสุด">
+        <input type="number" id="max" placeholder="เลขสูงสุด">
+        <button onclick="generateRandom()">สุ่มตัวเลข</button>
+        <button onclick="reset()">รีเซ็ท</button>
+        <div id="result" class="result">เลขที่ได้จะแสดงตรงนี้</div>
+        <div id="history">
+            <h2>ตัวเลขที่ออกไปแล้ว  </h2>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+    <script src="bcakend.js"></script>
+</body>
+</html>
